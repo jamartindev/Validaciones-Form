@@ -1,0 +1,24 @@
+.container {
+  max-width: 960px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:valid{
+  border: 1px solid green;
+}
+input:invalid {
+  border: 2px dashed #ff0000;
+}
+input:invalid + .error {
+  display: block;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+}
